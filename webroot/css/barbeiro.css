@@ -1,0 +1,161 @@
+/* cabeçalho */
+
+body,html{
+    background: #4c4c4c;
+    height: 100%;
+}
+
+.cabecalho{
+    text-align: center;
+    width: auto;
+}
+
+.imagem-principal{
+    border: 2px solid #ffffff;
+    padding: 4px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 25px 0 07px;
+}
+
+h1{
+    font-size:17px;
+    padding:5px;
+    color: #d1d0d0;
+}
+
+.estrelas{
+    color: black;
+}
+
+/* corpo */
+
+.menu{
+    padding: 10px;
+    height: 270px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu :hover{
+    transition: 0.5s;
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    background: #3a3a3a;
+    color: #ffffff;
+}
+
+.lista :hover{
+    border: 0;
+    background: 0%;
+}
+
+.lista{
+    margin:10px;
+    border-radius:50px;
+    border: 2px solid #b4b2b2;
+    width:40%;
+    text-align:center;
+    padding: 0 60px 0 0;
+    background: #ffffff;
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+}
+
+.imagem-whats{
+    width:46px;
+    margin: 0 10px;
+}
+
+.imagem-relogio{
+    width:32px;
+    margin: 6px 17px;
+}
+
+.imagem-local{
+    width: 36px;
+    margin: 5px 15px;
+
+}
+
+.imagem-preco{
+    width: 36px;
+    margin: 5px 15px;
+
+}
+
+.lista-A{
+    margin: 20px 0 10px;
+}
+
+.lista p {
+    flex-grow: 1;
+}
+
+/* rodapé */
+
+footer{
+    padding: 20px 0;
+    position: absolute;
+    width: 100%;
+}
+
+.redes-sociais{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 20px;
+
+}
+
+.instagram{
+    width:30px;
+}
+
+.facebook{
+    width: 40px;
+    padding: 10px;
+}
+
+#redes :hover{
+    cursor: pointer;
+}
+
+/* mobile */
+
+
+@media screen and (min-height:540px){
+
+    footer{
+        bottom: 0;
+    }
+
+}
+
+@media screen and (max-width:550px) {
+    
+.imagem-principal{
+    width:100px;
+ }
+ 
+ h1{
+     font-size:15px;
+ }
+ 
+ 
+ 
+ .lista{
+     
+     width: 70%;
+ }
+}
+
+
+
+
