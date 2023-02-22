@@ -1,0 +1,104 @@
+html{
+    background-image: url(../img/imgFundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+}
+
+header{
+    text-align: center;
+}
+
+.fotoinicial{
+    width: 150px;
+    border-radius: 50%;
+    border: 3px;
+    margin: 15px;
+}
+
+.fotoinicial ~ h1{
+        font-family:  'Ubuntu', sans-serif;
+        color: #ffffff;
+        font-size: 15px;
+        padding-left: 10px ;
+}
+
+
+main{
+    width: 100%;
+}
+
+.conteudo-inicial{
+    text-align: center;
+}
+.menuPrincipal{
+
+    display: inline-block;
+    width: 50%;
+    font-size: 20px;
+    margin: 17px;
+}
+
+.listaPrincipal{
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    margin: 30px;
+    border-radius: 15px;
+    padding: 15px;
+    background: #ffffff;
+    transition: 0.5s;
+}
+
+.listaPrincipal:hover{
+    background: #FF2A97;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+footer{
+    align-items: center;
+    position:absolute;
+    color:#ffffff;
+    width:100%;
+    text-align: center;
+    bottom:0;
+    padding: 20px 0;
+
+}
+
+.social{
+    display: flex;
+    height: 70px;
+    justify-content: center;
+}
+
+.social :hover{
+    cursor: pointer;
+}
+
+.img-social{
+    margin: 0px 10px 40px 10px;
+}
+
+.copyright{
+   display: inline-block;
+}
+
+@media screen and (max-height:680px) {
+
+    html{
+        height: auto;
+    }
+
+    footer{
+        position: relative;
+    }
+}
+
+@media screen and (max-width:680px) {
+
+    .menuPrincipal{
+        width: 90%;
+    }
+}
